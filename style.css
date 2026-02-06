@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.inpyrtg {
+    margin: 0 auto;
+}
+
+.fotminp{
+     border: 1px solid #ddd;
+     border-radius: 1px;
+     padding: 0.70rem 10rem 0.70rem 1rem;
+}
+
+.fotminp:focus{
+     box-shadow: none;
+     border-color: #a8a6a5;
+     outline: none;
+}
+
+.sear{
+    background: #f26528;
+    border-radius: 1px;
+    color: white;
+    padding: 0  1.50rem;
+}
+
+.sear:hover{
+    background: transparent;
+    border: 1px solid  #f26528 ;
+}
+
+.searcgg{
+    width: 67%;
+}
+
+/* avater */
+.cart-wrap{
+    position: relative;
+
+}
+
+.count-style {
+    position: absolute;
+    right: -7px;
+    top: -16px;
+    background-color: #1f2226;
+    color: white;
+    font-size: 15px;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.apple{
+    text-decoration: none;
+
+
+}
+
+.avater{
+    display: flex;
+}
+
+@media(max-width:427px){
+    .avater{
+        padding: 1rem;
+    }
+}
+
+/* bottom navbar */
+
+
+/* ensure nav link hover overrides utility classes */
+.smiltext:hover{
+    color: #f26528 !important;
+}
+
+.botom-contain{
+    border-top: 1px solid rgb(235, 232, 232);
+}
+
+/* coursel */
+.slide{
+    padding-left: 0px ;
+}
