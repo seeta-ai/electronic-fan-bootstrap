@@ -88,3 +88,19 @@
 .slide{
     padding-left: 0px ;
 }
+
+/* Bestsellers */
+    .bestsl{
+        padding: 0.50rem 5rem;
+        border-bottom: 2px solid orangered;
+        margin: 4rem 0;
+        background: #f5e4dc;
+    }
+
+    .bestsl h2{
+        margin-bottom: 0%;
+        font-size: 20px;
+        font-weight: 450;
+    } 
+
+    
