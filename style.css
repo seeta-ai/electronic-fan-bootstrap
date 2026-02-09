@@ -120,8 +120,30 @@
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
 }
 
+  .img-cont{
+    position: relative;
+}
+
+.icon-em{
+    position: absolute;
+    right: 0.1rem;
+    top: -1rem;
+    display: none;
+    transition: all 0.3s ease;
+    color: #a8a6a5;
+}
+  .card:hover .icon-em{
+    display: block;
+  }
+
+
+
+    /* .img-cont:hover{
+      color: black;
+    } */
 
     .theme-product-price{
         display: flex;
@@ -144,8 +166,7 @@
 
   }
   
-element.style {
-}
+
 
 .whatsappbox {
     width: 49%;
@@ -168,6 +189,7 @@ element.style {
     margin-left: 1%;
     margin-top: 25px;
     text-align: center;
+       font-size: 9px;
 }
 
 
@@ -179,6 +201,10 @@ element.style {
     border-radius: 12px;
     color: #fff;
     text-decoration: none;
+}
+.buttoncart:hover{
+    background-color: #1f2226;
+    color: white;
 }
 .theme-product-title {
    font-size: 13px!important;
@@ -195,12 +221,15 @@ element.style {
    margin-bottom: 10px;
    color: #333;
 }
+ .theme-product-title:hover{
+   color: #f26528;
+ }
  .theme-product-price .new{
     color: #f26528;
  }
 .centaur-img{
     width: 100%;
-    height: 200px;
+    /* height: 200px; */
 }
 .card h3 {
   margin-bottom: 10px;
@@ -211,13 +240,13 @@ element.style {
   color: #666;
 }
 
+
 /* Owl nav buttons */
 .card-slider .owl-nav{
     margin-top: 20px;
     display: flex;
     gap: 10px;
     justify-content: center;
-        font-size: 3rem;
  color: #b3afaf;
  font-weight: 300;
  
@@ -225,19 +254,25 @@ element.style {
  .card-slider .owl-nav button {
   position: absolute;
   z-index: 11;
-  /* background: #000 !important; */
-       
-    
-  width: 20px;
-  color: #b3afaf !important;
-  /* display: flex; */
-  /* align-items: center; */
+   background: transparent !important; 
+   border-radius: 2rem;
+   width: 40px;
+   height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 5px;
 } 
- .card-slider .owl-nav button:hover{
-   border-radius: 5rem;
-   border: 1px solid  #f26528;
-   padding: 1.5rem 3rem;
+.card-slider .owl-nav button span{
+    font-size: 30px;
+}
+  
+ .card-slider .owl-nav button span:hover{
+    border-radius: 5rem;
+   border: 1px solid  #f26528; 
+   color: #f26528;
+   
+   padding: 0rem 1rem; 
  }
 
 .card-slider .owl-nav .owl-prev{
