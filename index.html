@@ -19,6 +19,16 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Owl Carousel CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+
     <!-- css--->
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -280,8 +290,7 @@
       </button>
     </div>
 
-
-     <!-- Bestsellers -->
+    <!-- Bestsellers -->
     <section class="">
       <div class="container">
         <div class="bestsl">
@@ -290,12 +299,52 @@
       </div>
     </section>
 
-      <!-- slider -->
-       <section class="">
-        <div class="container">
-          
+    <!-- slider -->
+    <section>
+      <div class="container">
+        <div class="owl-carousel card-slider fans-carousel">
+          <div class="card">
+            <div class="">
+              <img src="img/slider/falcon.webp" />
+            </div>
+            <h3>Card 1</h3>
+            <p>This is slider card one.</p>
+          </div>
+
+          <div class="card">
+            <div class="">
+              <img src="img/slider/img-3.webp" />
+            </div>
+            <h3>Card 2</h3>
+            <p>This is slider card two.</p>
+          </div>
+
+          <div class="card">
+            <div class="">
+              <img src="img/slider/img-4.avif" />
+            </div>
+            <h3>Card 3</h3>
+            <p>This is slider card three.</p>
+          </div>
+
+          <div class="card">
+            <div class="">
+              <img src="img/slider/img-3.webp" />
+            </div>
+            <h3>Card 4</h3>
+            <p>This is slider card four.</p>
+          </div>
+
+          <div class="card">
+            <div class="">
+              <img src="img/slider/img-3.webp" />
+            </div>
+            <h3>Card 5</h3>
+            <p>This is slider card five.</p>
+          </div>
         </div>
-       </section>
+      </div>
+    </section>
 
     <!-- boostrap js -->
     <script
@@ -303,5 +352,34 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".card-slider").owlCarousel({
+          loop: true,
+          margin: 20,
+          nav: true,
+          dots: true,
+          autoplay: true,
+          autoplayTimeout: 3000,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            600: {
+              items: 2,
+            },
+            1000: {
+              items: 4,
+            },
+          },
+        });
+      });
+    </script>
   </body>
 </html>
