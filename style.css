@@ -289,7 +289,7 @@
 /* footer-section */
 
 .footer{
-  background-color:#eddec6;
+  background-color:#f6e9d5;
 }
   .anku{
      font-size: 14px;
@@ -381,9 +381,82 @@
   }
 
      .cardmy{
-          
-    background: #cec5b7;
+          padding: 15px 11px;
+    background: #eddec6;
      }
   .cardmy h5{
       color: #ee510e;
   }
+
+  /* noida deal */
+  .linkpage {
+    width: 100%;
+    height: 100%;
+    padding: 12px 24px 0;
+    background: #f6e9d5;
+}
+
+.maincategoryfooter {
+    font-weight: 700;
+    margin: 10px 0 5px;
+}
+
+.seotext
+
+ {
+    max-width: 1600px;
+    margin: auto;
+}
+
+.subcategoryfooter {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+  .categoryfooter{
+    width:7px;float:left;text-align:center
+  }
+.footerlonk {
+    margin-bottom: 5px;
+    float: left;
+    
+}
+
+.maincategoryfooter {
+    font-weight: 700;
+    margin: 10px 0 5px;
+}
+
+.linkpage a{
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+}
+
+/* bottom footer */
+ .footer__bottom-row{
+   justify-content: space-between;
+   padding-top: 4rem;
+ }
+.footer__bottom-row+.footer__bottom-row {
+    margin-top: 3.2rem;
+}
+
+.footer__bottom {
+    --element-gap: 2.4rem;
+    padding-top: 4rem;
+}
+
+.page-width {
+    margin: 0 auto;
+    padding-inline: var(--page-padding);
+}
+.footer__bottom-row a{
+    text-decoration: none;
+        color: rgb(37, 37, 37);
+}
+
+.footer__bottom-row a:hover {
+      text-decoration: underline ;
+      color: rgb(37, 37, 37);
+    }
