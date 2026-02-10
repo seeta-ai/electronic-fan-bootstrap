@@ -205,8 +205,8 @@
 
   @media (max-width:728px){
    .buttoncart{
-       padding: 13px;
-       font-size: 13px;
+       padding: 12px;
+       font-size: 15px;
    }
 }
 .buttoncart:hover{
