@@ -135,7 +135,7 @@
     transition: all 0.3s ease;
     color: #a8a6a5;
 }
-  .card:hover .icon-em{
+  .img-cont:hover .icon-em{
     display: block;
   }
 
