@@ -111,7 +111,7 @@
 .container {
     position: relative;
   width: 90%;
-  margin: 50px auto;
+  margin: 20px auto;
 }
 
 .card {
@@ -405,7 +405,7 @@
 
   /* noida deal */
   @media(max-width:728px){
-    .noida{
+    .cardmy{
       margin-bottom: 20px;
     }
   }
@@ -471,7 +471,7 @@
 
  .footer__bottom-row .footer__copyright-content a{
           color: rgb(20, 20, 20);
-        font-weight: 500;
+        font-weight: 450;
           text-decoration: none;
           font-size: 16px;
        
