@@ -127,6 +127,11 @@
     position: relative;
 }
 
+.card:hover{
+  
+  box-shadow: 0 10px 12px rgba(0,0,0,0.3);
+}
+
 .icon-em{
     position: absolute;
     right: 0.1rem;
@@ -135,6 +140,9 @@
     transition: all 0.3s ease;
     color: #a8a6a5;
 }
+ .img-cont:hover{
+     
+  }
   .img-cont:hover .icon-em{
     display: block;
   }
