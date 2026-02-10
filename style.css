@@ -409,49 +409,7 @@
       margin-bottom: 20px;
     }
   }
-  .linkpage {
-    width: 100%;
-    height: 100%;
-    padding: 12px 24px 0;
-    background: #f6e9d5;
-}
-
-.maincategoryfooter {
-    font-weight: 700;
-    margin: 10px 0 5px;
-}
-
-.seotext
-
- {
-    max-width: 1600px;
-    margin: auto;
-}
-
-.subcategoryfooter {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-  .categoryfooter{
-    width:7px;float:left;text-align:center
-  }
-.footerlonk {
-    margin-bottom: 5px;
-    float: left;
-    
-}
-
-.maincategoryfooter {
-    font-weight: 700;
-    margin: 10px 0 5px;
-}
-
-.linkpage a{
-    text-decoration: none;
-    color: rgb(37, 37, 37);
-}
+  
 
 /* bottom footer */
  .footer__bottom-row{
