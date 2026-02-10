@@ -202,6 +202,13 @@
     color: #fff;
     text-decoration: none;
 }
+
+  @media (max-width:728px){
+   .buttoncart{
+       padding: 13px;
+       font-size: 13px;
+   }
+}
 .buttoncart:hover{
     background-color: #1f2226;
     color: white;
@@ -389,6 +396,11 @@
   }
 
   /* noida deal */
+  @media(max-width:728px){
+    .noida{
+      margin-bottom: 20px;
+    }
+  }
   .linkpage {
     width: 100%;
     height: 100%;
@@ -464,15 +476,52 @@
   text-decoration-color: rgb(10, 10, 10)!important;
 }
   
-  .social{
+   .social{
     gap: 1rem;
   }
-.social-ico{
-   color: black;
-   font-size: 20px;
-   background-color: #b3afaf;
-   border-radius: 2rem;
-   padding: 0.25rem;
-   
 
+
+.social-ico{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: transparent;
+  color: #000;
+  font-size: 18px;
+  text-decoration: none;
+
+  /*  center fix */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.social-ico::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #285227;
+  transform: translateX(-100%);
+  transition: transform 0.45s ease;
+  z-index: -1;
+}
+
+.social-ico:hover{
+  color: #fff;
+}
+
+.social-ico:hover::before{
+  transform: translateX(0);
+}
+
+@media(max-width:728px){
+   .footer__bottom-row{
+    flex-direction: column;
+      padding-left: 20px;
+   }
 }
