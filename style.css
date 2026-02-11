@@ -569,4 +569,28 @@ Tesriominal section */
 }
 
 
-/* why choices section */
+/* /* why choices sectio*\ */
+
+.chice-titler h1{
+ color:  rgb(241, 125, 83);
+}
+.fanicon{
+  font-size: 3rem;
+  color:  rgb(219, 78, 59);
+  transition: transform all 3s ease;
+  /* background: rgb(247, 140, 101); */
+  border-radius: 2rem;
+  padding: 10px 13px;
+  width: 3rem;
+  height: 3rem;
+}
+
+.choicecard{
+   background: #fffdfd;
+   box-shadow: none!important;
+}
+
+.fanicon{
+ 
+}
+
