@@ -559,6 +559,7 @@ Tesriominal section */
   color: #888;
 }
 
+ 
 .stars{
   margin-top: 10px;
   color: #f7b500;
@@ -570,24 +571,47 @@ Tesriominal section */
 
 
 /* /* why choices sectio*\ */
-
+ .chice-titler{
+     text-align: center;
+}
+ 
 .chice-titler h1{
  color:  rgb(241, 125, 83);
+ 
 }
+
+  .chice-titler p{
+    width: 70%;
+    margin: 13px auto;
+ 
+  }
 .fanicon{
   font-size: 3rem;
   color:  rgb(219, 78, 59);
   transition: transform all 3s ease;
   /* background: rgb(247, 140, 101); */
   border-radius: 2rem;
-  padding: 10px 13px;
+ 
   width: 3rem;
   height: 3rem;
+   transition: 0.5s ease;
 }
 
+ .fanicon:hover{
+    
+  transform: rotate(95deg);
+  
+}
+
+.card-text{
+   min-width: fit-content;
+}
+ 
 .choicecard{
    background: #fffdfd;
    box-shadow: none!important;
+  /* border: linear-gradient(to right, #5ac288, #92b3a1); */
+   border: 2px solid rgb(10, 224, 10)!important; 
 }
 
 .fanicon{
