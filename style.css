@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -7,36 +7,36 @@
     margin: 0 auto;
 }
 
-.fotminp{
-     border: 1px solid #ddd;
-     border-radius: 1px;
-     padding: 0.70rem 10rem 0.70rem 1rem;
+.fotminp {
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    padding: 0.70rem 10rem 0.70rem 1rem;
 }
 
-.fotminp:focus{
-     box-shadow: none;
-     border-color: #a8a6a5;
-     outline: none;
+.fotminp:focus {
+    box-shadow: none;
+    border-color: #a8a6a5;
+    outline: none;
 }
 
-.sear{
+.sear {
     background: #f26528;
     border-radius: 1px;
     color: white;
-    padding: 0  1.50rem;
+    padding: 0 1.50rem;
 }
 
-.sear:hover{
+.sear:hover {
     background: transparent;
-    border: 1px solid  #f26528 ;
+    border: 1px solid #f26528;
 }
 
-.searcgg{
+.searcgg {
     width: 67%;
 }
 
 /* avater */
-.cart-wrap{
+.cart-wrap {
     position: relative;
 
 }
@@ -56,18 +56,18 @@
     text-align: center;
 }
 
-.apple{
+.apple {
     text-decoration: none;
 
 
 }
 
-.avater{
+.avater {
     display: flex;
 }
 
-@media(max-width:427px){
-    .avater{
+@media(max-width:427px) {
+    .avater {
         padding: 1rem;
     }
 }
@@ -76,31 +76,67 @@
 
 
 /* ensure nav link hover overrides utility classes */
-.smiltext:hover{
+.smiltext:hover {
     color: #f26528 !important;
 }
 
-.botom-contain{
+.botom-contain {
     border-top: 1px solid rgb(235, 232, 232);
 }
 
 /* coursel */
-.slide{
-    padding-left: 0px ;
+
+* {
+  box-sizing: border-box;
 }
 
-/* Bestsellers */
-    .bestsl{
-        padding: 0.50rem 5rem;
-        border-bottom: 2px solid orangered;
-        margin: 4rem 0;
-        background: #f5e4dc;
-    }
-
-    .bestsl h2{
-        margin-bottom: 0%;
-        font-size: 20px;
-        font-weight: 450;
+ 
+   .swiper {
+    position: relative;
+      width: 90%;
+      height: 100%;
     } 
 
-    
+    .swiper-slide {
+      text-align: center;
+      /*font-size: 18px; */
+     
+      display: flex;
+       justify-content: center;
+      align-items: center; 
+    }
+
+    .swiper-button-next{
+        position: absolute;
+        right: 1rem;
+        border-radius: 2rem;
+        border: 1px solid orangered;
+    }
+
+
+    .swiper-button-prev{
+        position: absolute;
+        right: 1rem;
+        border-radius: 2rem;
+        border: 1px solid orangered;
+    }
+      .card{
+        width: 50%;
+        height: 200px;
+      }
+      .card-fan{
+        width: 50%;
+        height: 200px;
+      }
+     .fan-title{
+     font-size: 16px;
+    line-height: 25px;
+     }
+     .theme-product-price span.old{
+      font-size: 11px;
+      text-decoration: line-through;
+      font-weight: 400;
+     }
+
+
+
